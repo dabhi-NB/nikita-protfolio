@@ -63,4 +63,4 @@ vercel
 Ya GitHub pe push karo aur vercel.com pe import karo.
 
 ## Resume
-`public/` folder mein `Nikita_Dabhi_Resume.pdf` rakhna — download button usi ko link karega.
+`public/` folder mein `Dabhi-Nikita.pdf` rakhna — download button usi ko link karega.

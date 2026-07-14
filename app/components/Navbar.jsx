@@ -26,9 +26,8 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'glass border-b border-[var(--border)] py-3' : 'py-5'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'glass border-b border-[var(--border)] py-3' : 'py-5'
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
@@ -55,7 +54,7 @@ export default function Navbar() {
 
         {/* Resume Button */}
         <a
-          href="/Nikita_Dabhi_Resume.pdf"
+          href="/Dabhi-Nikita.pdf"
           download
           className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200"
           style={{
@@ -101,7 +100,7 @@ export default function Navbar() {
                 </li>
               ))}
               <li>
-                <a href="/Nikita_Dabhi_Resume.pdf" download className="cyan-text font-medium">
+                <a href="/Dabhi-Nikita.pdf" download className="cyan-text font-medium">
                   Download CV ↓
                 </a>
               </li>

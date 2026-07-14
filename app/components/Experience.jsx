@@ -9,7 +9,7 @@ const experiences = [
     role: 'MERN Stack Developer',
     company: 'Lembits Technolab Pvt. Ltd.',
     location: 'Ahmedabad',
-    period: 'March 2026 – Present',
+    period: 'August 2025 – Present',
     type: 'Full Time',
     color: '#38bdf8',
     points: [
@@ -23,25 +23,10 @@ const experiences = [
   },
   {
     role: 'MERN Stack Developer Intern',
-    company: 'Lembits Technolab Pvt. Ltd.',
-    location: 'Ahmedabad',
-    period: 'December 2025 – February 2026',
-    type: '3 Month Internship',
-    color: '#a78bfa',
-    points: [
-      'Contributed to real-time MERN stack projects with backend integration.',
-      'Developed and tested REST APIs using Node.js & Express.js.',
-      'Worked on server-side logic and MongoDB database management.',
-      'Learned and implemented Next.js concepts including routing, SSR, and API routes.',
-      'Assisted in deployment and bug fixing.',
-    ],
-  },
-  {
-    role: 'MERN Stack Developer Intern',
     company: 'ExcelPTP',
     location: 'Ahmedabad',
-    period: 'June 2025 – November 2025',
-    type: '6 Month Internship',
+    period: 'April 2025 – July 2025',
+    type: '4 Month Internship',
     color: '#f472b6',
     points: [
       'Built responsive user interfaces using React.js, HTML, CSS, and Bootstrap.',

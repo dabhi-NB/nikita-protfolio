@@ -96,7 +96,7 @@ export default function Hero() {
                 Let's Connect
               </a>
               <a
-                href="/Nikita_Dabhi_Resume.pdf"
+                href="/Dabhi-Nikita.pdf"
                 download
                 className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm transition-all duration-200 hover:scale-105"
                 style={{
