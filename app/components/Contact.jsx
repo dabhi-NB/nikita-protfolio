@@ -12,14 +12,33 @@ export default function Contact() {
 
   const handleChange = (e) => setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }))
 
+  const [sending, setSending] = useState(false)
+
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Opens default mail client with prefilled content
-    const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`)
-    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`)
-    window.location.href = `mailto:dabhinikitab@gmail.com?subject=${subject}&body=${body}`
-    setSent(true)
-    setTimeout(() => setSent(false), 3000)
+    setSending(true)
+
+    emailjs.send(
+      'service_2l4m7ip',
+      'template_raawmht',
+      {
+        name: formData.name,
+        email: formData.email,
+        time: new Date().toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' }),
+        message: formData.message,
+      },
+      '_q4VXwGCVVmhINRD7'
+    )
+      .then(() => {
+        setSent(true)
+        setFormData({ name: '', email: '', message: '' })
+        setTimeout(() => setSent(false), 3000)
+      })
+      .catch((error) => {
+        console.error('Email send failed:', error)
+        alert('Something went wrong. Please try again or email me directly.')
+      })
+      .finally(() => setSending(false))
   }
 
   return (
