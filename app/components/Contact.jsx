@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { FiMail, FiPhone, FiLinkedin, FiGithub, FiSend } from 'react-icons/fi'
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
   const ref = useRef(null)
