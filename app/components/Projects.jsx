@@ -10,7 +10,7 @@ const projects = [
     title: 'Demo E-commerce Platform',
     description:
       'A full-stack e-commerce demo with separate admin and user panels — Next.js storefront with cart, wishlist, and orders; React/Vite admin dashboard for managing products, orders, and users; Node.js REST APIs with authentication, Redis caching, and file uploads.',
-    tags: ['TypeScript', 'Next.js', 'Node.js', 'React', 'Tailwind CSS', 'Express.js', 'MongoDB'],
+    tags: ['Next.js', 'Node.js', 'React', 'Tailwind CSS', 'Express.js', 'MongoDB'],
     github: 'https://github.com/dabhi-NB/Demo-ecommerce',
     live: null,
     featured: true,
