@@ -25,7 +25,7 @@ const projects = [
     github: 'https://github.com/dabhi-NB',
     live: null,
     featured: true,
-    badge: 'Live Project · Company',
+    badge: 'My Project',
     badgeColor: '#38bdf8',
   },
   {
