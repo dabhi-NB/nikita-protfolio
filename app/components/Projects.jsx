@@ -7,6 +7,17 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 // ─── ADD MORE PROJECTS HERE EASILY ───────────────────────────
 const projects = [
   {
+    title: 'Demo E-commerce Platform',
+    description:
+      'A full-stack e-commerce demo with separate admin and user panels — Next.js storefront with cart, wishlist, and orders; React/Vite admin dashboard for managing products, orders, and users; Node.js REST APIs with authentication, Redis caching, and file uploads.',
+    tags: ['TypeScript', 'Next.js', 'Node.js', 'React', 'Tailwind CSS'],
+    github: 'https://github.com/dabhi-NB/Demo-ecommerce',
+    live: null,
+    featured: true,
+    badge: 'Full Stack Project',
+    badgeColor: '#34d399',
+  },
+  {
     title: 'RV Mobile Solution',
     description:
       'A large-scale full-stack MERN application built at Lembits. Includes admin panel, user panel, and multiple complex functionalities. Worked on live production environment with RESTful APIs, authentication, and database management.',
